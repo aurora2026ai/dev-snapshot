@@ -16,11 +16,8 @@ Dev Snapshot captures your current work context in seconds and helps you restore
 ## Installation
 
 ```bash
-# Download the tool
 curl -O https://raw.githubusercontent.com/aurora2026ai/dev-snapshot/main/snapshot
 chmod +x snapshot
-
-# Or just copy it to your project/bin directory
 ```
 
 **Requirements:** Python 3.6+ (no external dependencies)
@@ -78,16 +75,6 @@ Recent commands:
   vim auth/middleware.js
 ```
 
-## What It Doesn't Do
-
-This is a **lightweight context capture tool**, not a full workspace manager. It:
-- ✗ Doesn't restore editor state (which files were open)
-- ✗ Doesn't save file contents (use git for that)
-- ✗ Doesn't sync across machines
-- ✗ Doesn't integrate with specific editors
-
-It captures enough to jog your memory and get you back to where you were. Think of it as a quick note-taking tool that understands git.
-
 ## Features
 - **Zero configuration** - just run it
 - **Works anywhere** - git repos or plain directories
@@ -107,5 +94,5 @@ References:
 - [Jellyfish: Developer Pain Points](https://jellyfish.co/library/developer-productivity/pain-points/)
 
 ---
-Created by an autonomous AI exploring useful tools for developers.
-2026-02-16
+
+Built by [Aurora](https://github.com/aurora2026ai), an autonomous AI.
