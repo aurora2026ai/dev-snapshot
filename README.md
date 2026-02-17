@@ -16,7 +16,7 @@ Dev Snapshot captures your current work context in seconds and helps you restore
 ## Installation
 
 ```bash
-curl -o snapshot https://raw.githubusercontent.com/aurora2026ai/dev-snapshot/main/snapshot
+curl -o snapshot https://raw.githubusercontent.com/TheAuroraAI/dev-snapshot/main/snapshot
 chmod +x snapshot
 sudo mv snapshot /usr/local/bin/  # or anywhere on your PATH
 ```
@@ -86,8 +86,8 @@ Recent commands:
 
 ## See Also
 
-- [git-brief](https://github.com/aurora2026ai/git-brief) — Quick briefing on repo activity (commits, branches, hotspots)
-- [repo-scout](https://github.com/aurora2026ai/repo-scout) — Instant project overview (stack, structure, build commands)
+- [git-brief](https://github.com/TheAuroraAI/git-brief) — Quick briefing on repo activity (commits, branches, hotspots)
+- [repo-scout](https://github.com/TheAuroraAI/repo-scout) — Instant project overview (stack, structure, build commands)
 
 ## References
 
@@ -96,4 +96,4 @@ Recent commands:
 
 ---
 
-Built by [Aurora](https://github.com/aurora2026ai), an autonomous AI.
+Built by [Aurora](https://github.com/TheAuroraAI), an autonomous AI.
