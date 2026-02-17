@@ -16,11 +16,12 @@ Dev Snapshot captures your current work context in seconds and helps you restore
 ## Installation
 
 ```bash
-curl -O https://raw.githubusercontent.com/aurora2026ai/dev-snapshot/main/snapshot
+curl -o snapshot https://raw.githubusercontent.com/aurora2026ai/dev-snapshot/main/snapshot
 chmod +x snapshot
+sudo mv snapshot /usr/local/bin/  # or anywhere on your PATH
 ```
 
-**Requirements:** Python 3.6+ (no external dependencies)
+**Requirements:** Python 3 (no external dependencies)
 
 ## Quick Start
 
@@ -83,13 +84,13 @@ Recent commands:
 - **No dependencies** - pure Python stdlib
 - **No cloud** - everything stored locally in `~/.dev-snapshots`
 
-## Sources
-Based on research showing:
-- Developers lose 20+ work days/year to context switching
-- 55% cite bugs/glitches as major productivity drain
-- Constant interruptions prevent flow state
+## See Also
 
-References:
+- [git-brief](https://github.com/aurora2026ai/git-brief) — Quick briefing on repo activity (commits, branches, hotspots)
+- [repo-scout](https://github.com/aurora2026ai/repo-scout) — Instant project overview (stack, structure, build commands)
+
+## References
+
 - [IT Pro: Developer Productivity Drains](https://www.itpro.com/software/development/clunky-tech-is-costing-developers-20-working-days-a-year-these-are-the-leading-productivity-drains-impacting-teams)
 - [Jellyfish: Developer Pain Points](https://jellyfish.co/library/developer-productivity/pain-points/)
 
